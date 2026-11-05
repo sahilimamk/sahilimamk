@@ -16,6 +16,7 @@ I'm a **Computer Science undergrad at Chandigarh University (2023 – 2027)** wh
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[DraftShot](https://github.com/sahilimamk/Game_multi)** | A real-time **2-player multiplayer game engine**. Server-authoritative loop at 60 ticks/sec over raw WebSockets — clients send keyboard-state deltas, never positions, and the server owns all movement and collisions. Shared physics module, AABB collision with Ghost Box projection, first to 5 wins the round. | Node.js · Express · `ws` · Java · Spring Boot |
 | **[PortMan](https://github.com/sahilimamk/portman)** | A clean GTK GUI to manage **every port on a Linux machine** — listening ports, live connections, UFW firewall rules, and USB/serial devices. Kill, block, or allow a port in one click. | Python · GTK3 · `ss` · UFW |
 | **DSA Buddy** | An AI *peer* (not a tutor) for DSA interview prep — Socratic coaching, interviewer mode, and a browser observer that watches your runs/submits and learns from your mistakes. *In active development.* | React · Express · SQLite · WebSockets |
 | **NetBond** | Bonds a laptop's Wi-Fi + USB-tethered phone into one smarter connection, with an adaptive proxy that learns which link is faster, per destination. | Python · nftables · Linux networking |
